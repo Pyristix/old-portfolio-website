@@ -1,0 +1,12 @@
+{
+	"AWSEBDockerrunVersion": "1",
+	"Image": {
+		"Name": "pyristix/portfolio-website",
+		"Update": "true"
+	},
+	"Ports": [{
+		"HostPort": 443,
+		"ContainerPort": 443
+	}],
+	"Logging": "/var/log/app"
+}
